@@ -1,0 +1,14 @@
+#Ignore active Python runtime environments and packages
+• conda/
+env/
+venv/
+_pycache
+*. pyc
+# Block
+data and binary model model payloads from bloated commits
+data/
+models/
+*.pkl
+*.h5
+
+.vscode/
